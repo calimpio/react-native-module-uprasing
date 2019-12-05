@@ -13,7 +13,5 @@
 import Uprasing from 'react-native-uprasing';
 
 
-Uprasing.getLanguage((lang)=>{
-    const lang = lang;
-});
+const language = Uprasing.Language;
 ```
