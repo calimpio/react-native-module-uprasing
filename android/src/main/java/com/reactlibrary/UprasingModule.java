@@ -4,7 +4,9 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
-import java.utils.Locale;
+import java.util.Locale;
+import java.util.Map;
+import java.util.HashMap;
 
 public class UprasingModule extends ReactContextBaseJavaModule {
 
@@ -21,9 +23,9 @@ public class UprasingModule extends ReactContextBaseJavaModule {
     }
 
     @Override
-  public Map<String, Object> getConstants() {
-    final Map<String, Object> constants = new HashMap<>();
-    constants.put("Language", Locale.getDefault().getLanguage());    
-    return constants;
-  }
+    public Map<String, Object> getConstants() {
+        final Map<String, Object> constants = new HashMap<>();
+        constants.put("Language", Locale.getDefault().getLanguage());    
+        return constants;
+    }
 }
