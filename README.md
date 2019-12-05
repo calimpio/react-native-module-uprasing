@@ -1,0 +1,17 @@
+# react-native-uprasing
+
+## Getting started
+
+`$ npm install react-native-uprasing --save`
+
+### Mostly automatic installation
+
+`$ react-native link react-native-uprasing`
+
+## Usage
+```javascript
+import Uprasing from 'react-native-uprasing';
+
+// TODO: What to do with the module?
+Uprasing;
+```
