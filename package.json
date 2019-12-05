@@ -1,7 +1,7 @@
 {
   "name": "react-native-uprasing",
   "title": "React Native Uprasing",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "get language and more for the future",
   "main": "index.js",
   "scripts": {

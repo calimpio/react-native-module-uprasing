@@ -20,9 +20,10 @@ public class UprasingModule extends ReactContextBaseJavaModule {
         return "Uprasing";
     }
 
-    @ReactMethod
-    public void getLanguage(Callback callback) {
-        // TODO: Implement some actually useful functionality
-        callback.invoke(Locale.getDefault().getLanguage());
-    }
+    @Override
+  public Map<String, Object> getConstants() {
+    final Map<String, Object> constants = new HashMap<>();
+    constants.put("Language", Locale.getDefault().getLanguage());    
+    return constants;
+  }
 }

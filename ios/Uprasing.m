@@ -5,10 +5,9 @@
 
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(getLanguage: callback:(RCTResponseSenderBlock)callback)
+- (NSDictionary *)constantsToExport
 {
-    NSString * language = [[NSLocale preferredLanguages] firstObject];
-    callback(@[language]);
+  return @{ @"Language": [[NSLocale preferredLanguages] firstObject] };
 }
 
 @end
