@@ -12,6 +12,8 @@
 ```javascript
 import Uprasing from 'react-native-uprasing';
 
-// TODO: What to do with the module?
-Uprasing;
+
+Uprasing.getLanguage((lang)=>{
+    const lang = lang;
+});
 ```
