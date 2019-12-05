@@ -6,7 +6,7 @@
 
 ### Mostly automatic installation
 
-`$ react-native link calimpio/react-native-uprasing`
+`$ react-native link react-native-uprasing`
 
 ## Usage
 ```javascript
